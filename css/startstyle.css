@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    color: #333;
+    
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #77ed43;
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #002856;
+  }
+  
+  .contact-info {
+    font-size: 3rem;
+  font-weight: bold;
+  color: rgb(22 89 35);
+
+  }
+  
+  .phone-number {
+    color: #002856;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  
+    
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('../image/thadda\ vadai.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    color: #66fc24;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .highlight {
+    color: #0e4de2;
+  }
+  
+  .hero-content .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #66fc24;
+    color: #002856;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .hero-content .btn:hover {
+    background-color: #137c23;
+  }

@@ -1,0 +1,130 @@
+body {
+    
+    background-color: #f9f9f9;
+    background-image: url('../image/loginimage.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+
+.login-container {
+    background: white;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 20px 100px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+    margin-top: 50px ;
+    margin-left: 400px;
+    
+  
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.loginForm .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #66fc24;
+    color: #002856;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+
+}
+.message a{
+    color: blue;
+}
+
+nav {
+    background-color: #77ed43;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(22 89 35);
+
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(22 89 35);
+
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url('../image/kharaboondi_4.webp');
+    background-position: center;
+    padding: 10px 2px;
+    overflow: hidden;
+}
+
+.nav-links li::after{
+    content: '';
+    display: block;
+    background-color: red;
+    height: 2px;
+    transform: scaleX(0);
+    transition: transform 300ms;
+}
+
+.nav-links li:hover::after{
+    transform: scaleX(1);
+}
+

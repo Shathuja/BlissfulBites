@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+   
+    margin: 0;
+    padding: 0;
+    background-color: #11742b;
+   color: rgb(22 89 35);
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* Header Section */
+
+
+
+.account-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background:  white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    gap: 20px;
+}
+
+.account-header {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.account-header .avatar {
+    width: 60px;
+    height: 60px;
+    background: #ddd;
+    border-radius: 50%;
+}
+
+.account-header .user-info h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.account-header .logout {
+    color: #007cba;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Navigation Menu */
+.account-menu {
+    flex: 1;
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+}
+
+.account-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.account-menu ul li {
+    margin-bottom: 10px;
+}
+
+.account-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.account-menu ul li a:hover {
+    background: #77ed43;
+    color: #fff;
+}
+
+/* Account Content */
+.account-content {
+    flex: 3;
+    padding-left: 15px;
+}
+
+.account-content p {
+    margin-bottom: 10px;
+}
+
+.account-content a {
+    color: #007cba;
+    text-decoration: none;
+}
+
+.account-content a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background: #77ed43;
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+    height: 10px;
+    font-size: 14px;
+}
+nav {
+    background-color: #77ed43;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+   
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(22 89 35);
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(22 89 35);
+
+}
+
+
+
+.nav-links li::after{
+    content: '';
+    display: block;
+    background-color: red;
+    height: 2px;
+    transform: scaleX(0);
+    transition: transform 300ms;
+}
+
+.nav-links li:hover::after{
+    transform: scaleX(1);
+}
