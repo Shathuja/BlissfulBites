@@ -10,7 +10,6 @@
 			} else {
 				die("Error ".mysqli_error($connect));
 			}
-            header('Location: ../homepage.html');
             exit;
 		} catch (Exception $e) {
 			die($e->getMessage());
@@ -18,9 +17,9 @@
 	}
 	
 	if ($_SERVER['REQUEST_METHOD'] == "POST") {
-		$Full_Name = $_POST['Full_Name'];
-		$Email_Address = $_POST['Email_Address'];
-		$Comment = $_POST['Comment'];
+		$Full_Name = $_POST['Name'];
+		$Email_Address = $_POST['Email'];
+		$Comment = $_POST['Message'];
 		AddData($connect,$Full_Name,$Email_Address,$Comment);
 	}
 	
