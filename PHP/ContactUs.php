@@ -1,11 +1,8 @@
 <?php
 	require_once 'dbconf.php';
-	function AddData($connect,$Full_Name,$EmailAddress,$UserName,$Password){
+	function AddData($connect,$Full_Name,$Email_Address,$Comment){
 		try {
-            $hashed_Password = password_hash($Password, PASSWORD_DEFAULT);
-            
-		
-			$sql = "INSERT INTO SignUp VALUES('$Full_Name','$EmailAddress','$UserName','$hashed_Password')";
+        $sql = "INSERT INTO ContactUs VALUES('$Full_Name','$Email_Address','$Comment',)";
 			
 			$result = mysqli_query($connect,$sql);
 			if ($result) {
@@ -22,10 +19,9 @@
 	
 	if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		$Full_Name = $_POST['Full_Name'];
-		$EmailAddress = $_POST['Email_Address'];
-		$UserName= $_POST['UserName'];
-		$Password = $_POST['Password'];
-		AddData($connect,$Full_Name,$EmailAddress,$UserName,$Password);
+		$Email_Address = $_POST['Email_Address'];
+		$Comment = $_POST['Comment'];
+		AddData($connect,$Full_Name,$Email_Address,$Comment);
 	}
 	
 
