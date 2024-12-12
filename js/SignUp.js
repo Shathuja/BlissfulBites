@@ -1,6 +1,6 @@
 function validatePasswords(event) {
-    const password = document.getElementById('password').value;
-    const confirmPassword = document.getElementById('cpassword').value;
+    const password = document.getElementById('Password').value;
+    const confirmPassword = document.getElementById('Rpassword').value;
     const errorMessage = document.getElementById('error_message');
 
     if (password !== confirmPassword) {
@@ -15,6 +15,6 @@ function validatePasswords(event) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('signup');
+    const form = document.getElementById('SignUp');
     form.addEventListener('submit', validatePasswords);
 });
