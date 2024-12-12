@@ -44,19 +44,14 @@ input {
 }
 
 .loginForm .btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    background-color: #66fc24;
-    color: #002856;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 100%;
+    background: linear-gradient(to right, #ff5f7e, #fc8d4d);
+    color: #fff;
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
   }
   
   

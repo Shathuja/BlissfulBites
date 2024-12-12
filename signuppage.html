@@ -24,6 +24,7 @@
             
             </div>
         </nav>
+        
     <div class="container">
         <div class="background-image"></div>
         <div class="signup-form">
@@ -39,23 +40,25 @@
                 <input type="text" name="UserName" placeholder="Username...">
                 
                 <label for="password">Password</label>
-                <input type="password" name="Password" id="Password" placeholder="****">
-                
+                <input type="password" name="Password" id="Password" placeholder="">
+                <div>
                 <label for="repeat-password">Repeat Password</label>
-                <input type="password" id="Rpassword" placeholder="****">
-                
+                <input type="password" id="Rpassword" placeholder="">
+                <div class="error_message" id="error_message"> Passwords do not match!</div>
+                </div>
                 <div class="terms">
                     <input type="checkbox" id="terms">
                     <label for="terms">I agree to the Terms of Use</label>
                 </div>
                 
-                <div class="error_message" id="error_message"> Passwords do not match!</div>
+                
                 <button name="submit" >Sign Up</button>
                 <p class="signin">Already have an account? <a href="login.html">Sign in</a></p>
 
                 
             </form>
         </div>
+    </div>
     </div>
     <script src="js/SignUp.js"></script>
 </body>

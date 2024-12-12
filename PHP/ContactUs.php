@@ -2,11 +2,11 @@
 	require_once 'dbconf.php';
 	function AddData($connect,$Full_Name,$Email_Address,$Comment){
 		try {
-        $sql = "INSERT INTO ContactUs VALUES('$Full_Name','$Email_Address','$Comment',)";
+        $sql = "INSERT INTO ContactUs VALUES('$Full_Name','$Email_Address','$Comment')";
 			
 			$result = mysqli_query($connect,$sql);
 			if ($result) {
-				//  echo "create Account sucessfully";
+				  echo "create Account sucessfully";
 			} else {
 				die("Error ".mysqli_error($connect));
 			}
