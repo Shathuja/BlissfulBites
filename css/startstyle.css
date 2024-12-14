@@ -76,12 +76,13 @@
   .hero-content .btn {
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #66fc24;
     color: #002856;
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
+
   }
   .hero-content .btn:hover {
     background-color: #137c23;
