@@ -28,12 +28,12 @@
 
     <div class="login-container">
         <h1>Login to Your Account</h1>
-        <form id="loginForm">
+        <form id="loginForm" action="PHP/login.php" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            <center> <button><a href="homepage.html" class="btn">LOGIN</a></button></center>
+            <center> <button name="login" type="submit">LOGIN</button></center>
         </form>
         <p class="message">Not registered? <a href="signuppage.html">Create an account</a></p>
     </div>
