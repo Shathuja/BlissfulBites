@@ -22,7 +22,7 @@ if (isset($_POST['login'])) {
     }
     }
     $connect->close(); // Close the database connection
-    header("Location: ../login.html?error=" . urlencode($error));
+    header("Location: ../login.php?error=" . urlencode($error));
     exit;
 }
 ?>
