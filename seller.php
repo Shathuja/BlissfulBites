@@ -30,7 +30,7 @@
         <form action="/create_account" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="sellername">Seller Name</label>
-                <input type="text" id="sellerName" name="sellerName" placeholder="Enter your name" required>
+                <input type="text" id="sellerName" name="sellername" placeholder="Enter your name" required>
             </div>
 
             <div class="form-group">
@@ -45,12 +45,12 @@
 
             <div class="form-group">
                 <label for="sellercontactnumber">Contact Number</label>
-                <input type="contactnumber" id="sellercontactnumber" name="designerContactNumber" placeholder="Enter your phone number" required>
+                <input type="contactnumber" id="sellercontactnumber" name="number" placeholder="Enter your phone number" required>
             </div>
 
             <div class="form-group">
                 <label for="productupload">Upload Product</label>
-                <input type="file" id="Uploadproduct" name="Uploadproduct" accept="image/*" required>
+                <input type="file" id="Uploadproduct" name="uploadproduct" accept="image/*" required>
             </div>
 
             <button type="submit">Create Account & Upload Product</button>
