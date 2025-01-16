@@ -17,7 +17,7 @@
 	}
 	
 	if ($_SERVER['REQUEST_METHOD'] == "POST") {
-		$star = $_POST['star'];
+		$star = $_POST['cookies-rating'];
 		$review = $_POST['review'];
 		
 		AddData($connect,$star,$review);

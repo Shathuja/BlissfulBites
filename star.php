@@ -36,7 +36,7 @@
             <div class="product">
                 
                 <form action="PHP/rating.php" method="POST">
-                    <div class="star-rating" name="star">
+                    <div class="star-rating" name="cookies-rating">
                         <input type="radio" id="cookies-5" name="cookies-rating" value="5">
                         <label for="cookies-5">★</label>
                         <input type="radio" id="cookies-4" name="cookies-rating" value="4">
