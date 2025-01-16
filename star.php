@@ -36,7 +36,7 @@
             <div class="product">
                 
                 <form>
-                    <div class="star-rating">
+                    <div class="star-rating" name="star">
                         <input type="radio" id="cookies-5" name="cookies-rating" value="5">
                         <label for="cookies-5">★</label>
                         <input type="radio" id="cookies-4" name="cookies-rating" value="4">
@@ -48,7 +48,7 @@
                         <input type="radio" id="cookies-1" name="cookies-rating" value="1">
                         <label for="cookies-1">★</label>
                     </div>
-                    <textarea placeholder="Leave your review here..."></textarea>
+                    <textarea placeholder="Leave your review here..." name="review" ></textarea>
                     <button type="submit">Submit</button>
                 </form>
             </div>
