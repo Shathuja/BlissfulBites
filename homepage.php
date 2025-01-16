@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blissful Bites</title>
     <link rel="stylesheet" href="css/homestyles.css">
-    <a href="contactuspage.html"></a>
+    <a href="contactuspage.php"></a>
        
 </head>
 <body>
@@ -15,15 +15,15 @@
         <img src="image/logo.jpeg" style="width:80px; height: 60px;">
         <div class="logo">Blissful Bites</div>
         <ul class="nav-links">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="seller.html">Seller's Area</a></li>
-            <li><a href="contantus.html">Contact Us</a></li>
-            <li><a href="rating.html">Rating</a></li>
+            <li><a href="homepage.php">Home</a></li>
+            <li><a href="menu.php">Menu</a></li>
+            <li><a href="seller.php">Seller's Area</a></li>
+            <li><a href="contantus.php">Contact Us</a></li>
+            <li><a href="rating.php">Rating</a></li>
         </ul>
         <div class="account-cart">
             
-                <a href="account.html">My account</a></a>
+                <a href="account.php">My account</a></a>
             
             
         
@@ -34,7 +34,7 @@
             <h2>Welcome to</h2>
                 <h1>Blissful Bites</h1>
             <p>Homemade sweets and snacks</p>
-            <center><a href="menu.html" class="btn" >Explore Now</a></center>
+            <center><a href="menu.php" class="btn" >Explore Now</a></center>
         </div>
             <img src="image/homeimg.jpg" class="feature-img ">
     </section>

@@ -17,7 +17,7 @@
       
       </div>
       <div class="account-cart">
-        <a href="account.html">My account</a></a>
+        <a href="account.php">My account</a></a>
     
     </div>
     </div>
@@ -30,7 +30,7 @@
       <p>Delicious sweets and snacks</p>
       <h1>TASTE YOUR <span class="highlight">Snacks</span> NOW</h1>
       
-      <a href="./login.html" class="btn">LOGIN</a>
+      <a href="./login.php" class="btn">LOGIN</a>
     </div>
   </section>
 </body>

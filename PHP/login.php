@@ -15,7 +15,7 @@ if (isset($_POST['login'])) {
 
         // Verify the password
         if (password_verify($password, $hashedPassword)) {
-                header("Location: ../homepage.html");
+                header("Location: ../homepage.php");
                 exit; // Ensure no further code runs after redirection
     } else {
         $error = "Invalid username or password.";

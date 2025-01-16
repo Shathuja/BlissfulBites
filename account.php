@@ -13,14 +13,14 @@
             <img src="image/logo.jpeg" style="width:80px; height: 60px;">
             <div class="logo">Blissful Bites</div>
             <ul class="nav-links">
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="seller.html">Seller's Area</a></li>
-                <li><a href="contantus.html">Contact Us</a></li>
-                <li><a href="rating.html">Rating</a></li>
+                <li><a href="homepage.php">Home</a></li>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a href="seller.php">Seller's Area</a></li>
+                <li><a href="contantus.php">Contact Us</a></li>
+                <li><a href="rating.php">Rating</a></li>
             </ul>
             <div class="account-cart">
-                <a href="account.html">My account</a></a>
+                <a href="account.php">My account</a></a>
             
             </div>
         </nav>
@@ -31,7 +31,7 @@
                 <div class="avatar"></div>
                 <div class="user-info">
                     <h2>Welcome to BlisssfulBites</h2>
-                    <a href="login.html" class="logout">Logout</a>
+                    <a href="login.php" class="logout">Logout</a>
                 </div>
             </div>
 

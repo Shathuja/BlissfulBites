@@ -14,14 +14,14 @@
                 <img src="image/logo.jpeg" style="width:80px; height: 60px;">
                 <div class="logo">Blissful Bites</div>
                 <ul class="nav-links">
-                    <li><a href="#"><a href="homepage.html">Home</a></a></li>
-                    <li><a href="#"><a href="menu.html">Menu</a></a></li>
-                    <li><a href="#"><a href="seller.html">Seller's Area</a></a></li>
-                    <li><a href="#"><a href="contantus.html">Contact Us</a></a></li>
-                    <li><a href="#"><a href="rating.html">Rating</a></a></li>
+                    <li><a href="#"><a href="homepage.php">Home</a></a></li>
+                    <li><a href="#"><a href="menu.php">Menu</a></a></li>
+                    <li><a href="#"><a href="seller.php">Seller's Area</a></a></li>
+                    <li><a href="#"><a href="contantus.php">Contact Us</a></a></li>
+                    <li><a href="#"><a href="rating.php">Rating</a></a></li>
                 </ul>
                 <div class="account-cart">
-                    <a href="account.html"><a href="account.html">My account</a></a>
+                    <a href="account.php">My account</a>
                 
                 </div>
             </nav>

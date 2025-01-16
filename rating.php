@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blissful Bites</title>
     <link rel="stylesheet" href="css/ratingstyle.css">
-    <a href="contactuspage.html"></a>
+    <a href="contactuspage.php"></a>
        
 </head>
 <body>
@@ -15,14 +15,14 @@
         <img src="image/logo.jpeg" style="width:80px; height: 60px;">
         <div class="logo">Blissful Bites</div>
         <ul class="nav-links">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="seller.html">Seller's Area</a></li>
-            <li><a href="contantus.html">Contact Us</a></li>
-            <li><a href="rating.html">Rating</a></li>
+            <li><a href="homepage.php">Home</a></li>
+            <li><a href="menu.php">Menu</a></li>
+            <li><a href="seller.php">Seller's Area</a></li>
+            <li><a href="contantus.php">Contact Us</a></li>
+            <li><a href="rating.php">Rating</a></li>
         </ul>
         <div class="account-cart">
-            <a href="account.html">My account</a></a>
+            <a href="account.php">My account</a></a>
         
         </div>
     </nav>
@@ -31,7 +31,7 @@
             
                 <h1>Online Rating</h1>
             <p>We are made to reach for the stars</p>
-            <center><a href="star.html" class="btn" >Give Star</a></center>
+            <center><a href="star.php" class="btn" >Give Star</a></center>
         </div>
             
     </section>
