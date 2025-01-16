@@ -6,10 +6,12 @@
 			
 			$result = mysqli_query($connect,$sql);
 			if ($result) {
-				  echo "create Account sucessfully";
+				  //echo "create Account sucessfully";
 			} else {
 				die("Error ".mysqli_error($connect));
 			}
+			header('Location: ../homepage.php');
+            
             exit;
 		} catch (Exception $e) {
 			die($e->getMessage());
